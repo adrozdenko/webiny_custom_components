@@ -1,0 +1,15 @@
+{
+	"name": "api-prerendering-service-queue-add",
+	"version": "0.1.0",
+	"scripts": {
+		"build": "yarn webiny run build"
+	},
+	"dependencies": {
+		"@webiny/api-prerendering-service": "5.2.1",
+		"@webiny/cli": "5.2.1",
+		"@webiny/db-dynamodb": "5.2.1",
+		"@webiny/handler-aws": "5.2.1",
+		"@webiny/handler-db": "5.2.1",
+		"@webiny/project-utils": "5.2.1"
+	}
+}

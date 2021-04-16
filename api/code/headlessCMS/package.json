@@ -1,0 +1,21 @@
+{
+	"name": "api-headless-cms",
+	"version": "0.1.0",
+	"scripts": {
+		"build": "yarn webiny run build"
+	},
+	"dependencies": {
+		"@webiny/api-headless-cms": "5.2.1",
+		"@webiny/api-i18n": "5.2.1",
+		"@webiny/api-i18n-content": "5.2.1",
+		"@webiny/api-plugin-elastic-search-client": "5.2.1",
+		"@webiny/api-plugin-security-cognito": "5.2.1",
+		"@webiny/api-security": "5.2.1",
+		"@webiny/api-security-tenancy": "5.2.1",
+		"@webiny/cli": "5.2.1",
+		"@webiny/db-dynamodb": "5.2.1",
+		"@webiny/handler-aws": "5.2.1",
+		"@webiny/handler-db": "5.2.1",
+		"@webiny/project-utils": "5.2.1"
+	}
+}
